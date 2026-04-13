@@ -1,5 +1,7 @@
 # Customer Churn Analysis & Prediction
 
+> Built an end-to-end churn prediction system, from raw data analysis to business-focused recommendations aimed at reducing revenue loss.
+>
 > End-to-end data analysis and machine learning project focused on identifying high-risk customers and translating insights into actionable business strategies.
 
 ## Problem Statement - 
@@ -39,9 +41,14 @@ strategies to improve customer retention and reduce revenue loss.
 
 The Logistic Regression model demonstrates strong discriminative ability. However, recall for churned customers (~52%) indicates that nearly half of actual churn cases are not being captured. This highlights a trade-off between precision and recall and suggests scope for improvement through threshold tuning or class balancing techniques.
 
+## How This Can Be Used
+- Identify high-risk customers in real-time using churn probability scores
+- Prioritize high-risk customers for targeted retention campaigns to maximize ROI on intervention efforts
+- Support business teams in focusing on high-value and high-risk customer segments
+
 ## Business Recommendations
 - Offer discounted long-term contracts to customers on month-to-month plans
-- Implement targeted retention campaigns for high-risk customer segments
+- Prioritize high-risk customers for targeted retention campaigns to maximize ROI on intervention efforts
 - Improve onboarding experience for new customers to reduce early churn
 - Re-evaluate pricing strategies for high monthly charge segments
 - Promote value-added services (security, support) to increase customer stickiness
@@ -50,11 +57,16 @@ The Logistic Regression model demonstrates strong discriminative ability. Howeve
 - ~7% of customers identified as high-risk (churn probability > 0.7)
 - Estimated monthly revenue at risk: ₹2.3–2.5 lakh
 
-Calculation:
+Calculation:  
 Assuming average revenue of ₹500 per customer,  
 478 high-risk customers × ₹500 ≈ ₹2,39,000/month  
 
 Even a 20–30% improvement in retention for this segment could result in significant monthly revenue savings, making targeted intervention highly valuable.
+
+## Future Improvements
+- Improve recall using advanced models (XGBoost, LightGBM)
+- Incorporate customer interaction data for better predictions
+- Deploy as a dashboard or API for real-time usage
 
 ## Tech Stack - 
 Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
