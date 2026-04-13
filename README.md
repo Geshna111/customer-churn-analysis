@@ -1,36 +1,36 @@
 # Customer Churn Analysis & Prediction
 
-Problem Statement - 
+## Problem Statement - 
 Customer churn leads to significant revenue loss in subscription-based businesses. 
 This project aims to identify customers at high risk of churn and provide actionable 
 strategies to improve customer retention and reduce revenue loss.
 
-Dataset - 
+## Dataset 
 - Source: Kaggle (IBM Telco Customer Churn Dataset)
 - Records: ~7,000 customers
 - Features: 21 variables including demographics, services, contract details, and billing information
 
-Key Insights
+## Key Insights
 - Customers on month-to-month contracts show significantly higher churn compared to long-term contracts
 - Higher monthly charges are associated with increased churn, indicating price sensitivity
 - Customers with lower tenure (new users) have the highest churn risk
 - Fiber optic internet users show higher churn, possibly due to higher expectations or pricing
 - Lack of add-on services (e.g., security, tech support) correlates with higher churn
 
-Model Performance
+## Model Performance
 - Logistic Regression ROC-AUC: ~0.83
 - Random Forest ROC-AUC: ~0.81
 
 The Logistic Regression model demonstrates strong discriminative ability, though recall for churned customers (~52%) indicates scope for improvement in identifying all at-risk users.
 
-Business Recommendations
+## Business Recommendations
 - Offer discounted long-term contracts to customers on month-to-month plans
 - Implement targeted retention campaigns for high-risk customer segments
 - Improve onboarding experience for new customers to reduce early churn
 - Re-evaluate pricing strategies for high monthly charge segments
 - Promote value-added services (security, support) to increase customer stickiness
 
-Business Impact
+## Business Impact
 - ~7% of customers identified as high-risk (churn probability > 0.7)
 - Estimated monthly revenue at risk: ₹2.3–2.5 lakh
 
@@ -40,5 +40,5 @@ Assuming average revenue of ₹500 per customer,
 
 Targeting this segment can significantly reduce revenue loss with focused retention efforts.
 
-Tech Stack - 
+## Tech Stack - 
 Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
