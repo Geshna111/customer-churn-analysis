@@ -11,10 +11,12 @@ strategies to improve customer retention and reduce revenue loss.
 - Source: Kaggle (IBM Telco Customer Churn Dataset)
 - Records: ~7,000 customers
 - Features: 21 variables including demographics, services, contract details, and billing information
+- Target Variable: Churn (Yes/No)
+Performed data cleaning, handling missing values, encoding categorical variables, and feature scaling for model readiness.
 
 ## Key Insights
 - Customers on month-to-month contracts show significantly higher churn compared to long-term contracts
-- Customers with higher monthly charges show increased churn, indicating price sensitivity and potential dissatisfaction with perceived value
+- Customers with higher monthly charges show disproportionately higher churn rates, indicating price sensitivity and potential dissatisfaction with perceived value.
 - Customers with lower tenure (new users) have the highest churn risk, highlighting onboarding gaps
 - Fiber optic internet users show higher churn, possibly due to higher expectations or pricing concerns
 - Customers without add-on services (e.g., security, tech support) are more likely to churn, suggesting lower engagement
