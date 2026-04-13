@@ -12,6 +12,7 @@ strategies to improve customer retention and reduce revenue loss.
 - Records: ~7,000 customers
 - Features: 21 variables including demographics, services, contract details, and billing information
 - Target Variable: Churn (Yes/No)
+
 Performed data cleaning, handling missing values, encoding categorical variables, and feature scaling for model readiness.
 
 ## Key Insights
