@@ -71,5 +71,5 @@ Even a 20–30% improvement in retention for this segment could result in signif
 - Incorporate customer interaction data for better predictions
 - Deploy as a dashboard or API for real-time usage
 
-## Tech Stack - 
+## Tech Stack 
 Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
