@@ -18,9 +18,9 @@ strategies to improve customer retention and reduce revenue loss.
 - Lack of add-on services (e.g., security, tech support) correlates with higher churn
 
 ## Key Visualizations
-<img width="831" height="631" alt="image" src="https://github.com/user-attachments/assets/2f2d93d2-7289-43b3-a4b8-8d4229e4dee8" width = "500" />
+<img width="831" height="631" alt="image" src="https://github.com/user-attachments/assets/2f2d93d2-7289-43b3-a4b8-8d4229e4dee8" width = "400" />
 
-<img width="803" height="624" alt="image" src="https://github.com/user-attachments/assets/520df7ea-de12-4b2e-9208-dba50c1927a3" width = "500" />
+<img width="803" height="624" alt="image" src="https://github.com/user-attachments/assets/520df7ea-de12-4b2e-9208-dba50c1927a3" width = "400" />
 
 ## Model Performance
 - Logistic Regression ROC-AUC: ~0.83
