@@ -1,8 +1,6 @@
 # Customer Churn Analysis & Prediction
 
 > Built an end-to-end churn prediction system, from raw data analysis to business-focused recommendations aimed at reducing revenue loss.
->
-> End-to-end data analysis and machine learning project focused on identifying high-risk customers and translating insights into actionable business strategies.
 
 ## Problem Statement - 
 Customer churn leads to significant revenue loss in subscription-based businesses. 
@@ -41,10 +39,12 @@ strategies to improve customer retention and reduce revenue loss.
 
 The Logistic Regression model demonstrates strong discriminative ability. However, recall for churned customers (~52%) indicates that nearly half of actual churn cases are not being captured. This highlights a trade-off between precision and recall and suggests scope for improvement through threshold tuning or class balancing techniques.
 
+Feature importance analysis was conducted to identify key drivers influencing churn predictions.
+
 ## How This Can Be Used
 - Identify high-risk customers in real-time using churn probability scores
-- Prioritize high-risk customers for targeted retention campaigns to maximize ROI on intervention efforts
-- Support business teams in focusing on high-value and high-risk customer segments
+- Support business teams in focusing on high-value and at-risk customer segments
+- Enable data-driven decision-making for customer retention strategies
 
 ## Business Recommendations
 - Offer discounted long-term contracts to customers on month-to-month plans
