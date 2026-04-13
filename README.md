@@ -1,4 +1,4 @@
-# Customer Churn Analysis & Prediction
+<img width="831" height="631" alt="image" src="https://github.com/user-attachments/assets/bcbceab3-e2c9-40fe-8067-d622b1aa265f" /># Customer Churn Analysis & Prediction
 
 ## Problem Statement - 
 Customer churn leads to significant revenue loss in subscription-based businesses. 
@@ -16,6 +16,10 @@ strategies to improve customer retention and reduce revenue loss.
 - Customers with lower tenure (new users) have the highest churn risk
 - Fiber optic internet users show higher churn, possibly due to higher expectations or pricing
 - Lack of add-on services (e.g., security, tech support) correlates with higher churn
+
+## Key Visualizations
+<img width="831" height="631" alt="image" src="https://github.com/user-attachments/assets/2f2d93d2-7289-43b3-a4b8-8d4229e4dee8" />
+
 
 ## Model Performance
 - Logistic Regression ROC-AUC: ~0.83
