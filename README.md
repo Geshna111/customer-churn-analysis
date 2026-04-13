@@ -2,7 +2,7 @@
 
 > Built an end-to-end churn prediction system, from raw data analysis to business-focused recommendations aimed at reducing revenue loss.
 
-## Problem Statement - 
+## Problem Statement 
 Customer churn leads to significant revenue loss in subscription-based businesses. 
 This project aims to identify customers at high risk of churn and provide actionable 
 strategies to improve customer retention and reduce revenue loss.
